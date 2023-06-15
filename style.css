@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;  
+}
+
+body{
+    background: linear-gradient(72deg, rgb(243, 193, 193)  1%,  rgb(125, 181, 251) 99%);
+}
+
+h1{
+    padding: 20px;
+    position: relative;
+    left: 25%;
+}
+
+h2{
+    padding: 20px;
+    position: relative;
+    left: 15%;
+}
+
+form{
+    padding: 20px;
+    font-size: 30px;
+    border: 20px;
+    border-color: black;
+    border-radius: 20px;
+    border-style: groove;
+    position: absolute;
+    left: 25%;
+}
+
+button{
+    border: 10px;
+    border-style:groove;
+    border-color: rgb(242, 50, 50);
+    background-color: rgb(242, 50, 50);
+    color: rgb(245, 241, 237);
+    font-size: 20px;
+    border-radius: 20px;
+}
