@@ -15,26 +15,27 @@
     
     <h2>SE VOCÊ PUDER ME AJUDAR, ESCOLHA TRÊS NÚMEROS:</h2>
 
-    <form>
+    <section id="form">
     <label>Número 1:</label>
     <input type="number" name="numeroum" id="one" placeholder="Digite o primeiro número aqui"/>
-<div>   
+   
+<br>
 <br>
     <label>Número 2:</label>
     <input type="number" name="numerodois" id="two" placeholder="Digite o segundo número aqui"/>
-<div>    
+<br>    
 <br>
     <label>Número 3:</label>
     <input type="number" name="numerotres" id="three" placeholder="Digite o terceiro número aqui"/>
-<div>
 <br>
-    <label>A média é:</label> 
-    <input type="number" name="nummedia" id="media" placeholder="Esse é o resultado da média"/>
+<br>
+    <div id="calcular"></div>
+<br><br>
 
-    <button id="calcular">CALCULAR</button>
-
+<button onclick="calcular()">CALCULAR</button>
+</section>
     
-</form>
+
 
 <script src="script.js"></script>
 </body>

@@ -20,7 +20,7 @@ h2{
     left: 15%;
 }
 
-form{
+#form{
     padding: 20px;
     font-size: 30px;
     border: 20px;
@@ -39,4 +39,16 @@ button{
     color: rgb(245, 241, 237);
     font-size: 20px;
     border-radius: 20px;
+}
+
+#calcular{
+    font-size: 22px;
+    padding: 5px;
+    height: 30px;
+    width: 300px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    left: 2%;
 }

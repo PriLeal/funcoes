@@ -1,18 +1,18 @@
 function calcular(){
-    var one = document.getElementById("one").value;
-    var two = document.getElementById("two").value;
-    var three = document.getElementById("three").value;
+    var one = parseFloat(document.getElementById("one").value);
+    var two = parseFloat(document.getElementById("two").value);
+    var three = parseFloat(document.getElementById("three").value);
 
   
     var media = (Number(one) + Number(two) + Number(three)) / 3;
 
-    document.getElementById("media").value = media;   
+    document.getElementById("calcular").innerHTML = "A MÉDIA É:" + media.toFixed(2);  
 
     }
 
     
 
-    document.getElementById("calcular").addEventListener("click", calcular);
+   
 
     
     
